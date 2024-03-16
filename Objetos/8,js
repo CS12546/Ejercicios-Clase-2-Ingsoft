@@ -1,0 +1,32 @@
+// 1. Objeto de persona
+const persona = {
+  nombre: "Juan",
+  edad: 30,
+  genero: "masculino"
+};
+
+// Mostrar información de la persona por consola
+console.log("Información de la persona:");
+console.log("Nombre:", persona.nombre);
+console.log("Edad:", persona.edad);
+console.log("Género:", persona.genero);
+
+// 2. Objeto caja
+const caja = {
+  cuadernos: 5,
+  lapices: 10,
+  papel: "A4",
+  fotografias: ["foto1.jpg", "foto2.jpg"],
+  estado: "buen estado"
+};
+
+// Mostrar el objeto completo por consola
+console.log("Objeto caja:", caja);
+
+// Mostrar cada propiedad del objeto y su tipo de dato
+console.log("Propiedades de la caja:");
+console.log("Número de cuadernos:", caja.cuadernos, "-", typeof caja.cuadernos);
+console.log("Número de lápices:", caja.lapices, "-", typeof caja.lapices);
+console.log("Tipo de papel:", caja.papel, "-", typeof caja.papel);
+console.log("Fotografías:", caja.fotografias, "-", typeof caja.fotografias);
+console.log("Estado de la caja:", caja.estado, "-", typeof caja.estado);
